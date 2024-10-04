@@ -6,7 +6,7 @@ class Action {
     System.out.printf("Hello %s.%n", args.length == 0 ? "Java" : args[0]);
     var gaussian = new Random().nextGaussian();
     GitHub.setOutput("random-number", gaussian);
-    System.out.println("Goodbye and have fun with: " + gaussian);
+    System.out.println("Hello and have fun with: " + gaussian);
   }
 
   /** GitHub Actions helper. */
